@@ -36,12 +36,14 @@ export default function SignUpForm() {
             onChange={(e) => setUserName(e.target.value)}/>
         </label>
         <br/>
+        <br/>
         <label>
             Password: {" "}
             <input type="password"
             value={password} 
             onChange={(e) => setPassword(e.target.value)}/>
         </label>
+        <br/>
         <br/>
         <button>Submit</button>
     </form>

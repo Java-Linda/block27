@@ -9,7 +9,7 @@ export default function Authenticate({token}) {
       const response = await fetch("https://fsa-jwt-practice.herokuapp.com/authenticate",
              {
                 method:"GET",
-                headers:{
+                header:{
                 "Content-Type": "application/json",
                 Authorization: `Bearer ${token}`,
                 }
